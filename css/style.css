@@ -184,6 +184,7 @@ span{
 .main_clients img{
     margin-top: 10px;
     margin-left: 30px;
+    padding-bottom: 210px;
 }
 
 .main_testimonials {
@@ -202,7 +203,24 @@ span{
    margin-bottom: 30px; 
 }
 
-
+.main_work {
+    background: #fff;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+.main_work h1{
+    margin-bottom: 30px;
+}
+.main_work p{
+    margin-bottom: 175px;
+    color: #6c6c6c;
+}
+.main_work img:hover{
+    opacity: 0.9;
+}
+.main_work img{
+    padding: 30px 30px 30px 30px;
+}
 
 
 
@@ -293,5 +311,14 @@ span{
     }
     .services_cards{
         grid-template-columns: auto;
+    }
+    .line1 img:not(:first-child){
+        display: none;
+    }
+    .line2 img:not(:first-child){
+        display: none;
+    }
+    .line3 img:not(:first-child){
+        display: none;
     }
 }
