@@ -32,12 +32,12 @@ nav {
 .topnav a{
     color: blanchedalmond;
     text-align: center;
-    padding: 12px 16px;
+    padding: 10px 16px;
     font-size: 14px;
     font-weight: bold;
 }
 .topnav a:hover{
-    color: #fcac45;
+    border-bottom: 3px solid #fcac45;
 }
 .topnav .icon{
     display: none;
