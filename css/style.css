@@ -259,6 +259,7 @@ textarea{
 input, textarea{
     border: 1px solid #999999;
     margin-top: 5px;
+    display: flex;
 }
 .button_block{
     display: flex;
@@ -391,5 +392,8 @@ footer{
     }
     .line3 img:not(:first-child){
         display: none;
+    }
+    .form_inputs{
+    flex-direction: column;
     }
 }
